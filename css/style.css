@@ -3,6 +3,30 @@
 body {
     font-family: "Gill Sans", sans-serif;
     background-color: #FBF7EB;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0 25px;
 }
 
 /* Style skip to main content */
@@ -37,11 +61,19 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .nav_item a {
     padding: 10px;
     color: black;
+    text-decoration: none;
+}
+
+.nav_item a:hover, a:active {
+    background-color: purple;
+    color: white;
+    text-decoration: underline;
 }
 
 /* Footer */
